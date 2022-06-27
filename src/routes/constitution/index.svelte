@@ -9,7 +9,7 @@
     let three, threeOne;
     let four, fourOne, fourTwo;
     let five, fiveOne;
-    let six, sixOne, sixTwo, sixThree;
+    let six;
     let seven, sevenOne, sevenTwo, sevenThree;
 
     const goToSection = (section) => {
@@ -130,10 +130,6 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
     
@@ -256,21 +252,16 @@
         <li>Duel to the death</li>
     </ol>
 
-    <h2 class="sectionHeading" bind:this={five}>Section 5 Tanking Policy</h2>
+    <h2 class="sectionHeading" bind:this={five}>5 Tanking</h2>
     
     <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <p>Tanking ist per se nicht verboten. Allerdings muss zu jedem Spiel ein vollständiges (keine IR-Spieler, keine Bye-Week-Spieler) und auch nachvollziehbares Roster (nicht ausschließlich Backups) aufgestellt werden. 
+	    Sollte dies wiederholt der Fall sein wird unter Umständen das Roster durch die Commissioner verwaltet.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Section 6 Replacing Managers</h2>
+    <h2 class="sectionHeading" bind:this={six}>6 Austritt</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
-    
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
-    
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <p>Sollte jemand beschließen zukünftig nicht mehr mitzuspielen zu wollen, sollte so früh wie möglich den Commissionern Bescheid gegeben damit man rechtzeitig auf Nachfolgersuche gehen kann. 
+	    Sollte der Ausstiegsgedanke auch schon während der Saison entstehen, sollte das Team nicht absichtlich runtergewirtschaftet werden. Denkt an eure Ehre!</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 7 League Finances</h2>
     
