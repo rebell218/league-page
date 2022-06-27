@@ -106,12 +106,10 @@
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
+            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.1 Generelle Regeln</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
             <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
     
@@ -122,9 +120,6 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
-    
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
-    
     <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
@@ -170,7 +165,7 @@
     
     <p>15 Bench + 5 Taxi Slots</p>
 
-    <p>3 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>3 IR Spots (Spieler muss in Sleeper als IR, Out, oder Covid geflagged sein)</p>
     
        
         </div>
@@ -178,7 +173,8 @@
 
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
     
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+    <p>Trading von Spielern und Draftpicks ist erlaubt (bis zu 3 Jahren vorraus). Trades werden direkt durchgeführt und retrospektiv überprüft. Bei offensichtlich einseitigen Trades wird zunächst durch die Commissioner nachgefragt und im Zweifelsfall der Trade nachträglich annulliert. 
+	    Alle Mitspieler sind dazu angehalten stattfindende Trades anzusehen und sich bei etwaigen Auffälligkeiten bei den Commissionern zu melden.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
