@@ -86,18 +86,14 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">reJoined + Dotasource Dynasty Football - Regelwerk</h1>
+    <h1>reJoined + Dotasource Dynasty Football - Regelwerk</h1>
     
-    <h2 class="noUnderscore">Inhaltsverzeichnis</h2>
+    <h2>Inhaltsverzeichnis</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.1 Generelle Regeln</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+    <h3>Section 1: Roster</h3>
+        <h4>1.1 Positional Breakdown</h4>
+        <h4>1.2.5 Veto/Trade Process</h5>
+        <h4>1.3 Waiver Wire</h4>
     
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
     
